@@ -182,7 +182,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -279,7 +279,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -323,7 +323,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Clone Id",
+			"displayName": "Source Clone ID",
 			"name": "sourceCloneId",
 			"type": "string",
 			"default": "",
@@ -444,7 +444,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -469,7 +469,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -513,7 +513,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -556,7 +556,7 @@ export const sourceDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -629,7 +629,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -673,7 +673,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -717,7 +717,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -761,7 +761,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -855,7 +855,7 @@ export const sourceDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -879,7 +879,7 @@ export const sourceDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -927,7 +927,7 @@ export const sourceDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -1024,7 +1024,7 @@ export const sourceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -1141,7 +1141,7 @@ export const sourceDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",

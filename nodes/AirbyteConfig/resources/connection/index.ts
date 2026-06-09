@@ -146,7 +146,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -518,7 +518,7 @@ export const connectionDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Catalog Id",
+			"displayName": "Source Catalog ID",
 			"name": "sourceCatalogId",
 			"type": "string",
 			"default": "",
@@ -543,7 +543,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -652,7 +652,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -696,7 +696,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -740,7 +740,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -784,7 +784,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -828,7 +828,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -871,7 +871,7 @@ export const connectionDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -919,7 +919,7 @@ export const connectionDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -1169,7 +1169,7 @@ export const connectionDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -1252,7 +1252,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -1320,7 +1320,7 @@ export const connectionDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -1692,7 +1692,7 @@ export const connectionDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Catalog Id",
+			"displayName": "Source Catalog ID",
 			"name": "sourceCatalogId",
 			"type": "string",
 			"default": "",

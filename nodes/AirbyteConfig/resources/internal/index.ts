@@ -135,7 +135,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -253,7 +253,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -347,7 +347,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -396,7 +396,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workflow Id",
+			"displayName": "Workflow ID",
 			"name": "workflowId",
 			"type": "string",
 			"default": "",
@@ -440,7 +440,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -557,7 +557,7 @@ export const internalDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -601,7 +601,7 @@ export const internalDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",

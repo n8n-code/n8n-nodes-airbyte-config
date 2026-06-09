@@ -99,7 +99,7 @@ export const attemptDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -217,7 +217,7 @@ export const attemptDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -311,7 +311,7 @@ export const attemptDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Job Id",
+			"displayName": "Job ID",
 			"name": "jobId",
 			"type": "number",
 			"default": 0,
@@ -360,7 +360,7 @@ export const attemptDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workflow Id",
+			"displayName": "Workflow ID",
 			"name": "workflowId",
 			"type": "string",
 			"default": "",

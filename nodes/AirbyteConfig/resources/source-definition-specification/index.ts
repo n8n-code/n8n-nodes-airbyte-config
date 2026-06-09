@@ -50,7 +50,7 @@ export const sourceDefinitionSpecificationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -75,7 +75,7 @@ export const sourceDefinitionSpecificationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",

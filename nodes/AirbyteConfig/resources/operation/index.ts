@@ -290,7 +290,7 @@ export const operationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -334,7 +334,7 @@ export const operationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Operation Id",
+			"displayName": "Operation ID",
 			"name": "operationId",
 			"type": "string",
 			"default": "",
@@ -378,7 +378,7 @@ export const operationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Operation Id",
+			"displayName": "Operation ID",
 			"name": "operationId",
 			"type": "string",
 			"default": "",
@@ -422,7 +422,7 @@ export const operationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -491,7 +491,7 @@ export const operationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Operation Id",
+			"displayName": "Operation ID",
 			"name": "operationId",
 			"type": "string",
 			"default": "",

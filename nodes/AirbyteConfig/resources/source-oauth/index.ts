@@ -9,7 +9,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					]
 				}
 			},
@@ -39,8 +39,8 @@ export const sourceOauthDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Set Instancewide Source Oauth Params",
-					"value": "Set Instancewide Source Oauth Params",
+					"name": "Set Instancewide Source OAuth Params",
+					"value": "Set Instancewide Source OAuth Params",
 					"action": "Sets instancewide variables to be used for the oauth flow when creating this source. When set, these variables will be injected into a connector's configuration before any interaction with the connector image itself. This enables running oauth flows with consistent variables e.g: the company's Google Ads developer_token, client_id, and client_secret without the user having to know about these variables.\n",
 					"description": "Sets instancewide variables to be used for the oauth flow when creating this source. When set, these variables will be injected into a connector's configuration before any interaction with the connector image itself. This enables running oauth flows with consistent variables e.g: the company's Google Ads developer_token, client_id, and client_secret without the user having to know about these variables.\n",
 					"routing": {
@@ -64,7 +64,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -89,7 +89,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -114,7 +114,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -123,7 +123,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Redirect Url",
+			"displayName": "Redirect URL",
 			"name": "redirectUrl",
 			"type": "string",
 			"default": "",
@@ -139,7 +139,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -149,7 +149,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -164,7 +164,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -173,7 +173,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -188,7 +188,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -198,7 +198,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -213,7 +213,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Complete Source O Auth"
@@ -232,7 +232,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -257,7 +257,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -267,7 +267,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Redirect Url",
+			"displayName": "Redirect URL",
 			"name": "redirectUrl",
 			"type": "string",
 			"default": "",
@@ -283,7 +283,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -293,7 +293,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -308,7 +308,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -317,7 +317,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -332,7 +332,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -342,7 +342,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -357,7 +357,7 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
 						"Get Source O Auth Consent"
@@ -376,10 +376,10 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
-						"Set Instancewide Source Oauth Params"
+						"Set Instancewide Source OAuth Params"
 					]
 				}
 			}
@@ -401,17 +401,17 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
-						"Set Instancewide Source Oauth Params"
+						"Set Instancewide Source OAuth Params"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -426,10 +426,10 @@ export const sourceOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Source Oauth"
+						"Source OAuth"
 					],
 					"operation": [
-						"Set Instancewide Source Oauth Params"
+						"Set Instancewide Source OAuth Params"
 					]
 				}
 			}

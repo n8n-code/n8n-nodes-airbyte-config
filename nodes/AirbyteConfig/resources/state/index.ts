@@ -62,7 +62,7 @@ export const stateDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -132,7 +132,7 @@ export const stateDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",

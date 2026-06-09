@@ -23,14 +23,14 @@ import { stateDescription } from './resources/state';
 
 export class AirbyteConfig implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'airbyte-config',
+		displayName: 'Airbyte Config',
 		name: 'N8nDevAirbyteConfig',
 		icon: { light: 'file:./airbyte-config.svg', dark: 'file:./airbyte-config.dark.svg' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Airbyte Configuration API',
-		defaults: { name: 'airbyte-config' },
+		defaults: { name: 'Airbyte Config' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
@@ -105,8 +105,8 @@ export class AirbyteConfig implements INodeType {
 					"description": "Connection between sources and destinations."
 				},
 				{
-					"name": "Destination Oauth",
-					"value": "Destination Oauth",
+					"name": "Destination OAuth",
+					"value": "Destination OAuth",
 					"description": "Source OAuth related resources to delegate access from user."
 				},
 				{
@@ -145,8 +145,8 @@ export class AirbyteConfig implements INodeType {
 					"description": ""
 				},
 				{
-					"name": "Source Oauth",
-					"value": "Source Oauth",
+					"name": "Source OAuth",
+					"value": "Source OAuth",
 					"description": "Source OAuth related resources to delegate access from user."
 				},
 				{

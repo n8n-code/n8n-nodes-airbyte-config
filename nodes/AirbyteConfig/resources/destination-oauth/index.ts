@@ -9,7 +9,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					]
 				}
 			},
@@ -39,8 +39,8 @@ export const destinationOauthDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Set Instancewide Destination Oauth Params",
-					"value": "Set Instancewide Destination Oauth Params",
+					"name": "Set Instancewide Destination OAuth Params",
+					"value": "Set Instancewide Destination OAuth Params",
 					"action": "Sets instancewide variables to be used for the oauth flow when creating this destination. When set, these variables will be injected into a connector's configuration before any interaction with the connector image itself. This enables running oauth flows with consistent variables e.g: the company's Google Ads developer_token, client_id, and client_secret without the user having to know about these variables.\n",
 					"description": "Sets instancewide variables to be used for the oauth flow when creating this destination. When set, these variables will be injected into a connector's configuration before any interaction with the connector image itself. This enables running oauth flows with consistent variables e.g: the company's Google Ads developer_token, client_id, and client_secret without the user having to know about these variables.\n",
 					"routing": {
@@ -64,7 +64,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -74,7 +74,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -89,7 +89,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -98,7 +98,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -113,7 +113,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -138,7 +138,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -163,7 +163,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -172,7 +172,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Redirect Url",
+			"displayName": "Redirect URL",
 			"name": "redirectUrl",
 			"type": "string",
 			"default": "",
@@ -188,7 +188,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -198,7 +198,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -213,7 +213,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Complete Destination O Auth"
@@ -232,7 +232,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -242,7 +242,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -257,7 +257,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -266,7 +266,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -281,7 +281,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -306,7 +306,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -316,7 +316,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Redirect Url",
+			"displayName": "Redirect URL",
 			"name": "redirectUrl",
 			"type": "string",
 			"default": "",
@@ -332,7 +332,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -342,7 +342,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -357,7 +357,7 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
 						"Get Destination O Auth Consent"
@@ -376,17 +376,17 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
-						"Set Instancewide Destination Oauth Params"
+						"Set Instancewide Destination OAuth Params"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -401,10 +401,10 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
-						"Set Instancewide Destination Oauth Params"
+						"Set Instancewide Destination OAuth Params"
 					]
 				}
 			}
@@ -426,10 +426,10 @@ export const destinationOauthDescription: INodeProperties[] = [
 			"displayOptions": {
 				"show": {
 					"resource": [
-						"Destination Oauth"
+						"Destination OAuth"
 					],
 					"operation": [
-						"Set Instancewide Destination Oauth Params"
+						"Set Instancewide Destination OAuth Params"
 					]
 				}
 			}

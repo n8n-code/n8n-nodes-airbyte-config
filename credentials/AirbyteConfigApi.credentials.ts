@@ -8,7 +8,7 @@ import type {
 export class AirbyteConfigApi implements ICredentialType {
 	name = 'N8nDevAirbyteConfigApi';
 
-	displayName = 'airbyte-config API';
+	displayName = 'Airbyte Config API';
 
 	icon: Icon = { light: 'file:../nodes/AirbyteConfig/airbyte-config.svg', dark: 'file:../nodes/AirbyteConfig/airbyte-config.dark.svg' };
 
@@ -22,7 +22,7 @@ export class AirbyteConfigApi implements ICredentialType {
 			default: 'http://airbyte.local',
 			required: true,
 			placeholder: 'http://airbyte.local',
-			description: 'The base URL of your airbyte-config API server',
+			description: 'The base URL of your Airbyte Config API server',
 		},
 		{
 			displayName: 'API Key',

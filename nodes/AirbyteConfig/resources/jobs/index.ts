@@ -122,7 +122,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -166,7 +166,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -210,7 +210,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -254,7 +254,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -298,7 +298,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -342,7 +342,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "number",
 			"default": 0,
@@ -386,7 +386,7 @@ export const jobsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Config Id",
+			"displayName": "Config ID",
 			"name": "configId",
 			"type": "string",
 			"default": "",
@@ -435,7 +435,7 @@ export const jobsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Including Job Id",
+			"displayName": "Including Job ID",
 			"name": "includingJobId",
 			"type": "number",
 			"default": 0,

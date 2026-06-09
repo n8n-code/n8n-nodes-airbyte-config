@@ -146,7 +146,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -218,7 +218,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -287,7 +287,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Clone Id",
+			"displayName": "Destination Clone ID",
 			"name": "destinationCloneId",
 			"type": "string",
 			"default": "",
@@ -383,7 +383,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -433,7 +433,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -477,7 +477,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -521,7 +521,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -565,7 +565,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -635,7 +635,7 @@ export const destinationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -659,7 +659,7 @@ export const destinationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -731,7 +731,7 @@ export const destinationDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -803,7 +803,7 @@ export const destinationDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",

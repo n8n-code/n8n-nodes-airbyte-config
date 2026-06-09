@@ -102,7 +102,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -126,7 +126,7 @@ export const schedulerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Destination Id",
+			"displayName": "Destination ID",
 			"name": "destinationId",
 			"type": "string",
 			"default": "",
@@ -151,7 +151,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -223,7 +223,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -247,7 +247,7 @@ export const schedulerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -272,7 +272,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -344,7 +344,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Source Definition Id",
+			"displayName": "Source Definition ID",
 			"name": "sourceDefinitionId",
 			"type": "string",
 			"default": "",
@@ -368,7 +368,7 @@ export const schedulerDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Source Id",
+			"displayName": "Source ID",
 			"name": "sourceId",
 			"type": "string",
 			"default": "",
@@ -393,7 +393,7 @@ export const schedulerDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",

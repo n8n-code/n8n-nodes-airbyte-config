@@ -15,8 +15,8 @@ export const openapiDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Get Open Api Spec",
-					"value": "Get Open Api Spec",
+					"name": "Get Open API Spec",
+					"value": "Get Open API Spec",
 					"action": "Returns the openapi specification",
 					"description": "Returns the openapi specification",
 					"routing": {
@@ -43,7 +43,7 @@ export const openapiDescription: INodeProperties[] = [
 						"Openapi"
 					],
 					"operation": [
-						"Get Open Api Spec"
+						"Get Open API Spec"
 					]
 				}
 			}

@@ -51,8 +51,8 @@ export const workspaceDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Workspace By Connection Id",
-					"value": "Get Workspace By Connection Id",
+					"name": "Get Workspace By Connection ID",
+					"value": "Get Workspace By Connection ID",
 					"action": "Find workspace by connection id",
 					"description": "Find workspace by connection id",
 					"routing": {
@@ -396,7 +396,7 @@ export const workspaceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -440,7 +440,7 @@ export const workspaceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -477,14 +477,14 @@ export const workspaceDescription: INodeProperties[] = [
 						"Workspace"
 					],
 					"operation": [
-						"Get Workspace By Connection Id"
+						"Get Workspace By Connection ID"
 					]
 				}
 			}
 		},
 		{
 			"required": true,
-			"displayName": "Connection Id",
+			"displayName": "Connection ID",
 			"name": "connectionId",
 			"type": "string",
 			"default": "",
@@ -502,7 +502,7 @@ export const workspaceDescription: INodeProperties[] = [
 						"Workspace"
 					],
 					"operation": [
-						"Get Workspace By Connection Id"
+						"Get Workspace By Connection ID"
 					]
 				}
 			}
@@ -591,7 +591,7 @@ export const workspaceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -865,7 +865,7 @@ export const workspaceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
@@ -934,7 +934,7 @@ export const workspaceDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",

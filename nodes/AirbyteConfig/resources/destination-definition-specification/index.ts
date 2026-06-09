@@ -50,7 +50,7 @@ export const destinationDefinitionSpecificationDescription: INodeProperties[] = 
 		},
 		{
 			"required": true,
-			"displayName": "Destination Definition Id",
+			"displayName": "Destination Definition ID",
 			"name": "destinationDefinitionId",
 			"type": "string",
 			"default": "",
@@ -75,7 +75,7 @@ export const destinationDefinitionSpecificationDescription: INodeProperties[] = 
 		},
 		{
 			"required": true,
-			"displayName": "Workspace Id",
+			"displayName": "Workspace ID",
 			"name": "workspaceId",
 			"type": "string",
 			"default": "",
