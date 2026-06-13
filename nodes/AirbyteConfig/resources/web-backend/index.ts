@@ -1,7 +1,7 @@
 import type { INodeProperties } from 'n8n-workflow';
 
 export const webBackendDescription: INodeProperties[] = [
-		{
+                {
 			"displayName": "Operation",
 			"name": "operation",
 			"type": "options",

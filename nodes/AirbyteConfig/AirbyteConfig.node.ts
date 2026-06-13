@@ -22,32 +22,32 @@ import { webBackendDescription } from './resources/web-backend';
 import { stateDescription } from './resources/state';
 
 export class AirbyteConfig implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Airbyte Config',
-		name: 'N8nDevAirbyteConfig',
-		icon: { light: 'file:./airbyte-config.svg', dark: 'file:./airbyte-config.dark.svg' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Airbyte Configuration API',
-		defaults: { name: 'Airbyte Config' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAirbyteConfigApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Airbyte Config',
+                name: 'N8nDevAirbyteConfig',
+                icon: { light: 'file:./airbyte-config.svg', dark: 'file:./airbyte-config.dark.svg' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Airbyte Configuration API',
+                defaults: { name: 'Airbyte Config' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAirbyteConfigApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -183,6 +183,6 @@ export class AirbyteConfig implements INodeType {
 		...sourceOauthDescription,
 		...webBackendDescription,
 		...stateDescription
-		],
-	};
+                ],
+        };
 }
